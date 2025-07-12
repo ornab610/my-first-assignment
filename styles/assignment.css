@@ -123,3 +123,92 @@ main {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* styles Feedback Section */
+.feedback-section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px 24px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.stars {
+    color: #fbbf24;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.reviewer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.reviewer-info {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+/* revuere */
