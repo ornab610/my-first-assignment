@@ -187,28 +187,54 @@ h2 {
     color: #555;
 }
 
-/* footer styles */
-footer {
-    padding: 130px 230px;
-    display: flex;
-    gap: 100px;
-}
-
-.footer-column {
-    width: 50%;
-}
-
-footer input[type="text"],
-footer input[type="email"],
-footer textarea {
-    height: 64px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    border: none;
-}
 
 /* revuere */
+.Get-In-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Get-In-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.Get-In-left h1 {
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Get-In-right {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
