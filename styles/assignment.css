@@ -4,6 +4,11 @@
     font-style: normal;
 }
 
+/* shared style */
+.secondary-bg {
+    background-color: rgba(78, 71, 205, 10%);
+}
+
 .btn-primary {
     background-color: #4E47FF;
     color: white;
@@ -69,7 +74,7 @@ main {
     justify-content: space-between;
     padding: 60px 20px;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-top: 110px;
 }
 
 .action-title {
@@ -87,4 +92,34 @@ main {
     border-radius: 48px;
     overflow: hidden;
     display: block;
+}
+
+.Productive-Users-Section {
+    border-radius: 24px;
+    padding: 50px 80px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.user-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 0 0 0 0;
+}
+
+.Productive-Users-title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.user-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.user-description {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
